@@ -1,0 +1,29 @@
+/* Estilo general */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  text-align: center;
+  margin: 20px auto 0 auto;
+  width: 500px;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* #viewer-container {
+  width: 100%;
+} */
