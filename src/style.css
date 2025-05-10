@@ -1,6 +1,7 @@
 /* Estilo general */
 body {
   margin: 0;
+  padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
   display: grid;
@@ -36,8 +37,8 @@ model-viewer {
     height: 90vh;
     padding: 10px;
     margin: 0 auto 0 auto;
-    width: 70vw;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 500px;
   }
 
   model-viewer {
