@@ -31,7 +31,13 @@ model-viewer {
 }
 
 @media (max-width: 600px) {
+  main {
+    max-width: 90%;
+    height: 90vh;
+    padding: 10px;
+  }
+
   model-viewer {
-    height: 70vh;
+    height: 80vh;
   }
 }
